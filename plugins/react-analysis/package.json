@@ -1,0 +1,19 @@
+{
+  "name": "react-analysis",
+  "version": "0.1.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hjp",
+  "license": "ISC",
+  "rnpm": {
+    "assets": ["./ios/RNBaiduAnalysis/CrabCrashReportSDK/CrashReportre.framework","./ios/RNBaiduAnalysis/CrabCrashReportSDK/CrabCrashReport.h","./ios/RNBaiduAnalysis/CrabCrashReportSDK/libCrabCrashReport.a"]
+  },
+  "dependencies": {
+    "plist": "^2.0.1",
+    "xcode": "^0.9.3"
+  }
+}
+
